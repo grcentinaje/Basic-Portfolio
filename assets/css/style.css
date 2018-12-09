@@ -6,10 +6,10 @@ h1, h2 {
     font-family: "Times New Roman", Times, serif;
 }
 
-#about-me {
+#about-me, #contact, #portfolio {
     padding: 20px;
     background-color: white;
-    border-bottom: 3px solid #4aaaa5;
+    border-bottom: 3px solid #dddddd;
     font-size: 40px;
     color: #4aaaa5;
 }
@@ -36,8 +36,6 @@ p {
 
 #bio {
     padding: 20px;
-    clear: left:
-    float: left;
 }
 .name {
     padding: 20px;
@@ -75,6 +73,73 @@ li a {
     padding: 20px;
     text-decoration: none;
   }
+
+  form {
+    margin: 20px;
+  }
+
+  input[type=text] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 20px 0;
+    box-sizing: border-box;
+    border: 2px solid #4aaaa5;
+    border-radius: 2px;
+  }
+
+  input[type=button] {
+    background-color: #4aaaa5;
+    border: none;
+    color: white;
+    font-size: 16px;
+    padding: 16px 32px;
+    text-decoration: none;
+    display: block;
+    margin-left: 20px;
+    cursor: pointer;
+  }
+
+#message {
+    height: 300px;
+}
+
+.portfolio-container {
+    margin: 20px;
+}
+
+.portfolio {
+    position: relative;
+}
+
+#boo, #royce, #wireframe {
+    float: left;
+}
+
+#royce {
+    margin-left: 20px;
+}
+
+#wireframe {
+    clear: left;
+    margin-top: 20px;
+}
+
+img {
+    width: 400px;
+    border: 3px solid #666666;
+}
+
+.description {
+    background-color: #4aaaa5;
+    color: white;
+    padding: 20px 0px;
+    text-align: center;
+    width: 406px;
+    position: absolute;
+    bottom: 20px;
+    opacity: 0.8;
+    font-size: 16px;
+}
 
 .footer {
     position: fixed;
